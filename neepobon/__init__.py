@@ -16,7 +16,7 @@ def main(global_config, **settings):
     config.set_authorization_policy(authz_policy)
 
     config.add_route('home', '/')
-    config.add_route('hello', '/ehsan')
+    config.add_route('hello', '/hello')
     config.add_route('login', '/login')
     config.add_route('logout', '/logout')
     config.scan('.views')
